@@ -44,4 +44,9 @@ body {
 }
 .main .main__paragraph:hover {
   color: palevioletred;
+}
+
+.light {
+  background: white;
+  color: black;
 }/*# sourceMappingURL=main.css.map */
