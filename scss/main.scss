@@ -36,11 +36,19 @@ body {
   margin: 0 auto;
 
   /*.main .main__paragraph // without #{&}__ will be .main__paragraph*/
-  #{&}__paragraph {
+  #{&}__paragraph1 {
     font-weight: weight(regular);
 
     &:hover {
       color: palevioletred;
+    }
+  }
+
+  #{&}__paragraph2 {
+    @extend .main__paragraph1;
+
+    &:hover {
+      color: $accent-color;
     }
   }
 
