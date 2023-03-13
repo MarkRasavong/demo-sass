@@ -26,7 +26,7 @@ body {
   /*.main .main__paragraph // without .main__ will be .main__paragraph*/
 }
 .main .main__paragraph {
-  font-weight: 700;
+  font-weight: 400;
 }
 .main .main__paragraph:hover {
   color: palevioletred;
